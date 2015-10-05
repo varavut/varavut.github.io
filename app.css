@@ -1,0 +1,82 @@
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	color: rgba(0,0,0,0.5);
+}
+
+img {
+	width: auto;
+	max-width: 80%;
+	height: auto;
+}
+
+html {
+	font-size: 16px;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+	color: inherit;
+	font-weight: 600;
+}
+
+.circular-image {
+	border-radius: 100%;
+	border-color: white;
+	border-style: solid;
+	border-width: 0.5em;
+	vertical-align: middle;
+}
+
+.wrap {
+	width: 90%;
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+.image-box {
+	text-align: center;
+}
+
+.image-box > img {
+	max-height: 40vh;
+}
+
+
+
+.row{
+	align-items: center;
+	justify-content: center;
+}
+
+.text-light{
+	color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 30em) {
+	body {
+		font-size: 90%;
+	}
+
+	img {
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 20em) {
+	body {
+		font-size: 80%;
+	}
+
+	img {
+		max-width: 60%;
+	}
+}
+
+@media screen and (min-height: 40em) {
+	.image-box > img {
+		max-height: 50vh;
+	}
+}
